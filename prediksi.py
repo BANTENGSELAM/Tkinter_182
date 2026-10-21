@@ -3,7 +3,7 @@ import tkinter as tk
 import tkinter.messagebox as msg
 top=tk.Tk()
 top.title("Aplikasi Prediksi Program Studi")
-
+top.geometry("650x700")
 
 Judul = tk.Label(top, text= "Aplikasi Prediksi Prodi")
 Judul.pack()
