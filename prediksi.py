@@ -14,6 +14,8 @@ E1=tk.Entry(top,bd=5);E1.pack()
 L1=tk.Label(top,text="Bahasa Indonesia: ");L1.pack()
 E1=tk.Entry(top,bd=5);E1.pack()
 
+L1=tk.Label(top,text="Bahasa Inggris: ");L1.pack()
+E1=tk.Entry(top,bd=5);E1.pack()
 
 L1=tk.Label(top,text="Informatika: ");L1.pack()
 E1=tk.Entry(top,bd=5);E1.pack()
