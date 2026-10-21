@@ -1,10 +1,9 @@
+
 import tkinter as tk
+import tkinter.messagebox as msg
+top=tk.Tk()
 
-root = tk.Tk()
+Judul = tk.Label(top, text= "Aplikasi Prediksi Prodi")
+Judul.pack()
 
-root.title("Aplikasi Prediksi Prodi")
-
-judul = tk.Label(root, text="Aplikasi Prediksi Program Studi")
-judul.pack()
-
-root.mainloop()
+top.mainloop()
