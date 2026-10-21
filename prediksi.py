@@ -37,5 +37,8 @@ E1=tk.Entry(top,bd=5);E1.pack()
 L1=tk.Label(top,text="Mekanika Fluida: ");L1.pack()
 E1=tk.Entry(top,bd=5);E1.pack()
 
-
+def helloCallBack():
+    msg.showinfo("Hasil Kemungkinan Prodi :  ", 
+                 "TEKNOLOGI INFORMASI")
+    
 top.mainloop()
