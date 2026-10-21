@@ -40,5 +40,8 @@ E1=tk.Entry(top,bd=5);E1.pack()
 def helloCallBack():
     msg.showinfo("Hasil Kemungkinan Prodi :  ", 
                  "TEKNOLOGI INFORMASI")
-    
+ 
+w1=tk.Button(top,text="Prediksi!", command=helloCallBack)
+w1.pack()
+   
 top.mainloop()
